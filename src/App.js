@@ -27,7 +27,7 @@ function App() {
       method: "GET",
       url:
         "https://us-central1-dentrack-46b48.cloudfunctions.net/api/fortbend/patient/24963",
-      header: {
+      headers: {
         Authorization: `Bearer ${accessToken}`
       }
     })
